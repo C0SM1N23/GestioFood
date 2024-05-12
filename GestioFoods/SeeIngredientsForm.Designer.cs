@@ -28,19 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            listBox1 = new ListBox();
+            listIngredients = new ListBox();
+            Butonadd = new Button();
             SuspendLayout();
             // 
-            // listBox1
+            // listIngredients
             // 
-            listBox1.BackColor = Color.FromArgb(54, 57, 74);
-            listBox1.FormattingEnabled = true;
-            listBox1.ItemHeight = 15;
-            listBox1.Location = new Point(2, 1);
-            listBox1.Name = "listBox1";
-            listBox1.Size = new Size(510, 334);
-            listBox1.TabIndex = 0;
-            listBox1.SelectedIndexChanged += this.listBox1_SelectedIndexChanged;
+            listIngredients.BackColor = Color.FromArgb(54, 57, 74);
+            listIngredients.FormattingEnabled = true;
+            listIngredients.ItemHeight = 15;
+            listIngredients.Location = new Point(2, 1);
+            listIngredients.Name = "listIngredients";
+            listIngredients.Size = new Size(510, 334);
+            listIngredients.TabIndex = 0;
+            listIngredients.SelectedIndexChanged += listBox1_SelectedIndexChanged;
+            // 
+            // Butonadd
+            // 
+            Butonadd.BackColor = Color.FromArgb(30, 168, 150);
+            Butonadd.Font = new Font("Segoe UI", 14F);
+            Butonadd.ForeColor = Color.Black;
+            Butonadd.Location = new Point(529, 133);
+            Butonadd.Name = "Butonadd";
+            Butonadd.Size = new Size(149, 56);
+            Butonadd.TabIndex = 1;
+            Butonadd.Text = "Order Stock";
+            Butonadd.UseVisualStyleBackColor = false;
             // 
             // SeeIngredientsForm
             // 
@@ -48,7 +61,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(35, 36, 47);
             ClientSize = new Size(700, 338);
-            Controls.Add(listBox1);
+            Controls.Add(Butonadd);
+            Controls.Add(listIngredients);
             Margin = new Padding(3, 2, 3, 2);
             Name = "SeeIngredientsForm";
             Text = "SeeRatingsForm";
@@ -57,6 +71,7 @@
 
         #endregion
 
-        private ListBox listBox1;
+        private ListBox listIngredients;
+        private Button Butonadd;
     }
 }

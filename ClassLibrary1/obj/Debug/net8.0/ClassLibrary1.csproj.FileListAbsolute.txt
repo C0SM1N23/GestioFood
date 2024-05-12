@@ -1,0 +1,5 @@
+C:\Users\bunea\Desktop\GestioFoods\GestioFood\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bunea\Desktop\GestioFoods\GestioFood\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.AssemblyInfoInputs.cache
+C:\Users\bunea\Desktop\GestioFoods\GestioFood\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.AssemblyInfo.cs
+C:\Users\bunea\Desktop\GestioFoods\GestioFood\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.csproj.CoreCompileInputs.cache
+C:\Users\bunea\Desktop\GestioFoods\GestioFood\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.sourcelink.json

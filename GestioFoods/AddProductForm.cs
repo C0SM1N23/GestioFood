@@ -94,5 +94,10 @@ namespace Desktop_App_.NET_8._0
         {
 
         }
+
+        private void radioButton1_CheckedChanged_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

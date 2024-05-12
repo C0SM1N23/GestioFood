@@ -37,6 +37,8 @@
             iconPictureBox2 = new FontAwesome.Sharp.IconPictureBox();
             btnLogin = new Button();
             iconPictureBox3 = new FontAwesome.Sharp.IconPictureBox();
+            butLogin1 = new RadioButton();
+            butLogin2 = new RadioButton();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)iconPictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)iconPictureBox2).BeginInit();
@@ -146,12 +148,38 @@
             iconPictureBox3.TabStop = false;
             iconPictureBox3.Click += iconPictureBox3_Click_1;
             // 
+            // butLogin1
+            // 
+            butLogin1.AutoSize = true;
+            butLogin1.ForeColor = Color.White;
+            butLogin1.Location = new Point(454, 124);
+            butLogin1.Name = "butLogin1";
+            butLogin1.Size = new Size(77, 19);
+            butLogin1.TabIndex = 8;
+            butLogin1.TabStop = true;
+            butLogin1.Text = "Employee";
+            butLogin1.UseVisualStyleBackColor = true;
+            // 
+            // butLogin2
+            // 
+            butLogin2.AutoSize = true;
+            butLogin2.ForeColor = Color.White;
+            butLogin2.Location = new Point(454, 149);
+            butLogin2.Name = "butLogin2";
+            butLogin2.Size = new Size(77, 19);
+            butLogin2.TabIndex = 9;
+            butLogin2.TabStop = true;
+            butLogin2.Text = "Customer";
+            butLogin2.UseVisualStyleBackColor = true;
+            // 
             // LoginForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(35, 36, 47);
             ClientSize = new Size(601, 306);
+            Controls.Add(butLogin2);
+            Controls.Add(butLogin1);
             Controls.Add(iconPictureBox3);
             Controls.Add(btnLogin);
             Controls.Add(tbPassword);
@@ -182,5 +210,7 @@
 		private FontAwesome.Sharp.IconPictureBox iconPictureBox2;
 		private Button btnLogin;
 		private FontAwesome.Sharp.IconPictureBox iconPictureBox3;
-	}
+        private RadioButton butLogin1;
+        private RadioButton butLogin2;
+    }
 }
