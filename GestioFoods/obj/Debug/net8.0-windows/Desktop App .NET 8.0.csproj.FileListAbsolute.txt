@@ -1,0 +1,72 @@
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros Web App\Desktop App .NET 8.0\bin\Debug\net8.0-windows\Desktop App .NET 8.0.exe
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros Web App\Desktop App .NET 8.0\bin\Debug\net8.0-windows\Desktop App .NET 8.0.deps.json
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros Web App\Desktop App .NET 8.0\bin\Debug\net8.0-windows\Desktop App .NET 8.0.runtimeconfig.json
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros Web App\Desktop App .NET 8.0\bin\Debug\net8.0-windows\Desktop App .NET 8.0.dll
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros Web App\Desktop App .NET 8.0\bin\Debug\net8.0-windows\Desktop App .NET 8.0.pdb
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros Web App\Desktop App .NET 8.0\bin\Debug\net8.0-windows\FontAwesome.Sharp.dll
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros Web App\Desktop App .NET 8.0\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros Web App\Desktop App .NET 8.0\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros Web App\Desktop App .NET 8.0\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros Web App\Desktop App .NET 8.0\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros Web App\Desktop App .NET 8.0\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros Web App\Desktop App .NET 8.0\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros Web App\Desktop App .NET 8.0\bin\Debug\net8.0-windows\DataAccessLayer.dll
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros Web App\Desktop App .NET 8.0\bin\Debug\net8.0-windows\LogicLayer.dll
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros Web App\Desktop App .NET 8.0\bin\Debug\net8.0-windows\DataAccessLayer.pdb
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros Web App\Desktop App .NET 8.0\bin\Debug\net8.0-windows\LogicLayer.pdb
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros Web App\Desktop App .NET 8.0\obj\Debug\net8.0-windows\Desktop App .NET 8.0.csproj.AssemblyReference.cache
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros Web App\Desktop App .NET 8.0\obj\Debug\net8.0-windows\Desktop_App_.NET_8._0.AddProductForm.resources
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros Web App\Desktop App .NET 8.0\obj\Debug\net8.0-windows\Desktop_App_.NET_8._0.EditDetailsForm.resources
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros Web App\Desktop App .NET 8.0\obj\Debug\net8.0-windows\Desktop_App_.NET_8._0.LoginForm.resources
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros Web App\Desktop App .NET 8.0\obj\Debug\net8.0-windows\Desktop_App_.NET_8._0.MainForm.resources
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros Web App\Desktop App .NET 8.0\obj\Debug\net8.0-windows\Desktop_App_.NET_8._0.ModifyProductForm.resources
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros Web App\Desktop App .NET 8.0\obj\Debug\net8.0-windows\Desktop_App_.NET_8._0.Properties.Resources.resources
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros Web App\Desktop App .NET 8.0\obj\Debug\net8.0-windows\Desktop_App_.NET_8._0.SeeRatingsForm.resources
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros Web App\Desktop App .NET 8.0\obj\Debug\net8.0-windows\Desktop App .NET 8.0.csproj.GenerateResource.cache
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros Web App\Desktop App .NET 8.0\obj\Debug\net8.0-windows\Desktop App .NET 8.0.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros Web App\Desktop App .NET 8.0\obj\Debug\net8.0-windows\Desktop App .NET 8.0.AssemblyInfoInputs.cache
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros Web App\Desktop App .NET 8.0\obj\Debug\net8.0-windows\Desktop App .NET 8.0.AssemblyInfo.cs
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros Web App\Desktop App .NET 8.0\obj\Debug\net8.0-windows\Desktop App .NET 8.0.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros Web App\Desktop App .NET 8.0\obj\Debug\net8.0-windows\Desktop .7889FF96.Up2Date
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros Web App\Desktop App .NET 8.0\obj\Debug\net8.0-windows\Desktop App .NET 8.0.dll
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros Web App\Desktop App .NET 8.0\obj\Debug\net8.0-windows\refint\Desktop App .NET 8.0.dll
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros Web App\Desktop App .NET 8.0\obj\Debug\net8.0-windows\Desktop App .NET 8.0.pdb
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros Web App\Desktop App .NET 8.0\obj\Debug\net8.0-windows\Desktop App .NET 8.0.genruntimeconfig.cache
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros Web App\Desktop App .NET 8.0\obj\Debug\net8.0-windows\ref\Desktop App .NET 8.0.dll
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros Web App\Desktop App .NET 8.0\obj\Debug\net8.0-windows\Desktop_App_.NET_8._0.AddStock.resources
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros\Desktop App .NET 8.0\bin\Debug\net8.0-windows\Desktop App .NET 8.0.exe
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros\Desktop App .NET 8.0\bin\Debug\net8.0-windows\Desktop App .NET 8.0.deps.json
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros\Desktop App .NET 8.0\bin\Debug\net8.0-windows\Desktop App .NET 8.0.runtimeconfig.json
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros\Desktop App .NET 8.0\bin\Debug\net8.0-windows\Desktop App .NET 8.0.dll
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros\Desktop App .NET 8.0\bin\Debug\net8.0-windows\Desktop App .NET 8.0.pdb
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros\Desktop App .NET 8.0\bin\Debug\net8.0-windows\FontAwesome.Sharp.dll
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros\Desktop App .NET 8.0\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros\Desktop App .NET 8.0\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros\Desktop App .NET 8.0\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros\Desktop App .NET 8.0\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros\Desktop App .NET 8.0\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros\Desktop App .NET 8.0\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros\Desktop App .NET 8.0\bin\Debug\net8.0-windows\DataAccessLayer.dll
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros\Desktop App .NET 8.0\bin\Debug\net8.0-windows\LogicLayer.dll
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros\Desktop App .NET 8.0\bin\Debug\net8.0-windows\DataAccessLayer.pdb
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros\Desktop App .NET 8.0\bin\Debug\net8.0-windows\LogicLayer.pdb
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros\Desktop App .NET 8.0\obj\Debug\net8.0-windows\Desktop App .NET 8.0.csproj.AssemblyReference.cache
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros\Desktop App .NET 8.0\obj\Debug\net8.0-windows\Desktop_App_.NET_8._0.AddProductForm.resources
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros\Desktop App .NET 8.0\obj\Debug\net8.0-windows\Desktop_App_.NET_8._0.AddStock.resources
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros\Desktop App .NET 8.0\obj\Debug\net8.0-windows\Desktop_App_.NET_8._0.EditDetailsForm.resources
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros\Desktop App .NET 8.0\obj\Debug\net8.0-windows\Desktop_App_.NET_8._0.LoginForm.resources
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros\Desktop App .NET 8.0\obj\Debug\net8.0-windows\Desktop_App_.NET_8._0.MainForm.resources
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros\Desktop App .NET 8.0\obj\Debug\net8.0-windows\Desktop_App_.NET_8._0.ModifyProductForm.resources
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros\Desktop App .NET 8.0\obj\Debug\net8.0-windows\Desktop_App_.NET_8._0.Properties.Resources.resources
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros\Desktop App .NET 8.0\obj\Debug\net8.0-windows\Desktop_App_.NET_8._0.SeeRatingsForm.resources
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros\Desktop App .NET 8.0\obj\Debug\net8.0-windows\Desktop App .NET 8.0.csproj.GenerateResource.cache
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros\Desktop App .NET 8.0\obj\Debug\net8.0-windows\Desktop App .NET 8.0.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros\Desktop App .NET 8.0\obj\Debug\net8.0-windows\Desktop App .NET 8.0.AssemblyInfoInputs.cache
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros\Desktop App .NET 8.0\obj\Debug\net8.0-windows\Desktop App .NET 8.0.AssemblyInfo.cs
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros\Desktop App .NET 8.0\obj\Debug\net8.0-windows\Desktop App .NET 8.0.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros\Desktop App .NET 8.0\obj\Debug\net8.0-windows\Desktop .7889FF96.Up2Date
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros\Desktop App .NET 8.0\obj\Debug\net8.0-windows\Desktop App .NET 8.0.dll
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros\Desktop App .NET 8.0\obj\Debug\net8.0-windows\refint\Desktop App .NET 8.0.dll
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros\Desktop App .NET 8.0\obj\Debug\net8.0-windows\Desktop App .NET 8.0.pdb
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros\Desktop App .NET 8.0\obj\Debug\net8.0-windows\Desktop App .NET 8.0.genruntimeconfig.cache
+C:\Users\Alex\Desktop\Project git\individual-assignment\Gaming Bros\Desktop App .NET 8.0\obj\Debug\net8.0-windows\ref\Desktop App .NET 8.0.dll

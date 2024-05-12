@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Q9Mr6S4MQuT6GDR9moJQnJMjEJHSDFhDKJe0WMMJWzSJhCo1vr9edFoIA6p0zVpG12b09XeomPCCWixgl+mcwA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\GestioFoods\\GestioFoods.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bunea\\.nuget\\packages\\fontawesome.sharp\\6.3.0\\fontawesome.sharp.6.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}
