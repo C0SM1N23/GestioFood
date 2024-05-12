@@ -90,12 +90,7 @@ namespace Desktop_App_.NET_8._0
             }
         }
 
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void radioButton1_CheckedChanged_1(object sender, EventArgs e)
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

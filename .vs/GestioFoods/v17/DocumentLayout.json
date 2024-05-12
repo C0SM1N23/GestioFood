@@ -3,64 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5C84A3E9-6890-42E0-9610-7551F39FB24E}|ClassLibrary1\\ClassLibrary1.csproj|c:\\users\\bunea\\desktop\\gestiofoods\\gestiofood\\classlibrary1\\class1\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C84A3E9-6890-42E0-9610-7551F39FB24E}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\class1\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C84A3E9-6890-42E0-9610-7551F39FB24E}|ClassLibrary1\\ClassLibrary1.csproj|C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\classlibrary1\\class1\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C84A3E9-6890-42E0-9610-7551F39FB24E}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\class1\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C84A3E9-6890-42E0-9610-7551F39FB24E}|ClassLibrary1\\ClassLibrary1.csproj|c:\\users\\bunea\\desktop\\gestiofoods\\gestiofood\\classlibrary1\\class1\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C84A3E9-6890-42E0-9610-7551F39FB24E}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\class1\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C84A3E9-6890-42E0-9610-7551F39FB24E}|ClassLibrary1\\ClassLibrary1.csproj|C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\classlibrary1\\class1\\modifyproductclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C84A3E9-6890-42E0-9610-7551F39FB24E}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\class1\\modifyproductclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C84A3E9-6890-42E0-9610-7551F39FB24E}|ClassLibrary1\\ClassLibrary1.csproj|c:\\users\\bunea\\desktop\\gestiofoods\\gestiofood\\classlibrary1\\class1\\mainformclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C84A3E9-6890-42E0-9610-7551F39FB24E}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\class1\\mainformclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C84A3E9-6890-42E0-9610-7551F39FB24E}|ClassLibrary1\\ClassLibrary1.csproj|c:\\users\\bunea\\desktop\\gestiofoods\\gestiofood\\classlibrary1\\class1\\loginformclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C84A3E9-6890-42E0-9610-7551F39FB24E}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\class1\\loginformclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C84A3E9-6890-42E0-9610-7551F39FB24E}|ClassLibrary1\\ClassLibrary1.csproj|C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\classlibrary1\\class1\\ingredients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C84A3E9-6890-42E0-9610-7551F39FB24E}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\class1\\ingredients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C84A3E9-6890-42E0-9610-7551F39FB24E}|ClassLibrary1\\ClassLibrary1.csproj|C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\classlibrary1\\class1\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C84A3E9-6890-42E0-9610-7551F39FB24E}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\class1\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C84A3E9-6890-42E0-9610-7551F39FB24E}|ClassLibrary1\\ClassLibrary1.csproj|c:\\users\\bunea\\desktop\\gestiofoods\\gestiofood\\classlibrary1\\class1\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C84A3E9-6890-42E0-9610-7551F39FB24E}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\class1\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C84A3E9-6890-42E0-9610-7551F39FB24E}|ClassLibrary1\\ClassLibrary1.csproj|c:\\users\\bunea\\desktop\\gestiofoods\\gestiofood\\classlibrary1\\class1\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C84A3E9-6890-42E0-9610-7551F39FB24E}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\class1\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C84A3E9-6890-42E0-9610-7551F39FB24E}|ClassLibrary1\\ClassLibrary1.csproj|C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\classlibrary1\\class1\\beverage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C84A3E9-6890-42E0-9610-7551F39FB24E}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\class1\\beverage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C84A3E9-6890-42E0-9610-7551F39FB24E}|ClassLibrary1\\ClassLibrary1.csproj|C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\classlibrary1\\class1\\addstockclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C84A3E9-6890-42E0-9610-7551F39FB24E}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\class1\\addstockclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13DBBFDA-B72F-4511-9BF0-261524585DB9}|GestioFoods\\GestioFoods.csproj|C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\gestiofoods\\modifyproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{13DBBFDA-B72F-4511-9BF0-261524585DB9}|GestioFoods\\GestioFoods.csproj|solutionrelative:gestiofoods\\modifyproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13DBBFDA-B72F-4511-9BF0-261524585DB9}|GestioFoods\\GestioFoods.csproj|C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\gestiofoods\\seeingredientsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{13DBBFDA-B72F-4511-9BF0-261524585DB9}|GestioFoods\\GestioFoods.csproj|solutionrelative:gestiofoods\\seeingredientsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13DBBFDA-B72F-4511-9BF0-261524585DB9}|GestioFoods\\GestioFoods.csproj|C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\gestiofoods\\addproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{13DBBFDA-B72F-4511-9BF0-261524585DB9}|GestioFoods\\GestioFoods.csproj|c:\\users\\bunea\\desktop\\gestiofoods\\gestiofood\\gestiofoods\\addproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{13DBBFDA-B72F-4511-9BF0-261524585DB9}|GestioFoods\\GestioFoods.csproj|solutionrelative:gestiofoods\\addproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13DBBFDA-B72F-4511-9BF0-261524585DB9}|GestioFoods\\GestioFoods.csproj|c:\\users\\bunea\\desktop\\gestiofoods\\gestiofood\\gestiofoods\\addproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13DBBFDA-B72F-4511-9BF0-261524585DB9}|GestioFoods\\GestioFoods.csproj|solutionrelative:gestiofoods\\addproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13DBBFDA-B72F-4511-9BF0-261524585DB9}|GestioFoods\\GestioFoods.csproj|c:\\users\\bunea\\desktop\\gestiofoods\\gestiofood\\gestiofoods\\addstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13DBBFDA-B72F-4511-9BF0-261524585DB9}|GestioFoods\\GestioFoods.csproj|solutionrelative:gestiofoods\\addstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13DBBFDA-B72F-4511-9BF0-261524585DB9}|GestioFoods\\GestioFoods.csproj|c:\\users\\bunea\\desktop\\gestiofoods\\gestiofood\\gestiofoods\\addstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{13DBBFDA-B72F-4511-9BF0-261524585DB9}|GestioFoods\\GestioFoods.csproj|solutionrelative:gestiofoods\\addstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,196 +26,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainFormClass.cs",
-              "DocumentMoniker": "C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\ClassLibrary1\\class1\\MainFormClass.cs",
-              "RelativeDocumentMoniker": "ClassLibrary1\\class1\\MainFormClass.cs",
-              "ToolTip": "C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\ClassLibrary1\\class1\\MainFormClass.cs",
-              "RelativeToolTip": "ClassLibrary1\\class1\\MainFormClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T16:32:30.303Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoginFormClass.cs",
-              "DocumentMoniker": "C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\ClassLibrary1\\class1\\LoginFormClass.cs",
-              "RelativeDocumentMoniker": "ClassLibrary1\\class1\\LoginFormClass.cs",
-              "ToolTip": "C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\ClassLibrary1\\class1\\LoginFormClass.cs",
-              "RelativeToolTip": "ClassLibrary1\\class1\\LoginFormClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T16:32:28.2Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\ClassLibrary1\\class1\\Employee.cs",
-              "RelativeDocumentMoniker": "ClassLibrary1\\class1\\Employee.cs",
-              "ToolTip": "C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\ClassLibrary1\\class1\\Employee.cs",
-              "RelativeToolTip": "ClassLibrary1\\class1\\Employee.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T15:34:14.2Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Person.cs",
-              "DocumentMoniker": "C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\ClassLibrary1\\class1\\Person.cs",
-              "RelativeDocumentMoniker": "ClassLibrary1\\class1\\Person.cs",
-              "ToolTip": "C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\ClassLibrary1\\class1\\Person.cs",
-              "RelativeToolTip": "ClassLibrary1\\class1\\Person.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T15:32:05.44Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Food.cs",
-              "DocumentMoniker": "C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\ClassLibrary1\\class1\\Food.cs",
-              "RelativeDocumentMoniker": "ClassLibrary1\\class1\\Food.cs",
-              "ToolTip": "C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\ClassLibrary1\\class1\\Food.cs",
-              "RelativeToolTip": "ClassLibrary1\\class1\\Food.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T15:07:57.92Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ModifyProductClass.cs",
-              "DocumentMoniker": "C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\ClassLibrary1\\class1\\ModifyProductClass.cs",
-              "RelativeDocumentMoniker": "ClassLibrary1\\class1\\ModifyProductClass.cs",
-              "ToolTip": "C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\ClassLibrary1\\class1\\ModifyProductClass.cs",
-              "RelativeToolTip": "ClassLibrary1\\class1\\ModifyProductClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T15:08:52.378Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\ClassLibrary1\\class1\\Product.cs",
-              "RelativeDocumentMoniker": "ClassLibrary1\\class1\\Product.cs",
-              "ToolTip": "C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\ClassLibrary1\\class1\\Product.cs",
-              "RelativeToolTip": "ClassLibrary1\\class1\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAHAAAA",
+              "Title": "AddProductForm.cs",
+              "DocumentMoniker": "C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\GestioFoods\\AddProductForm.cs",
+              "RelativeDocumentMoniker": "GestioFoods\\AddProductForm.cs",
+              "ToolTip": "C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\GestioFoods\\AddProductForm.cs",
+              "RelativeToolTip": "GestioFoods\\AddProductForm.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAlwF4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T15:16:09.411Z",
+              "WhenOpened": "2024-05-12T19:54:27.161Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductManager.cs",
-              "DocumentMoniker": "C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\ClassLibrary1\\class1\\ProductManager.cs",
-              "RelativeDocumentMoniker": "ClassLibrary1\\class1\\ProductManager.cs",
-              "ToolTip": "C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\ClassLibrary1\\class1\\ProductManager.cs",
-              "RelativeToolTip": "ClassLibrary1\\class1\\ProductManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T15:21:15.811Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\ClassLibrary1\\class1\\Customer.cs",
-              "RelativeDocumentMoniker": "ClassLibrary1\\class1\\Customer.cs",
-              "ToolTip": "C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\ClassLibrary1\\class1\\Customer.cs",
-              "RelativeToolTip": "ClassLibrary1\\class1\\Customer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T16:27:51.887Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Beverage.cs",
-              "DocumentMoniker": "C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\ClassLibrary1\\class1\\Beverage.cs",
-              "RelativeDocumentMoniker": "ClassLibrary1\\class1\\Beverage.cs",
-              "ToolTip": "C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\ClassLibrary1\\class1\\Beverage.cs",
-              "RelativeToolTip": "ClassLibrary1\\class1\\Beverage.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T15:12:40.196Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Ingredients.cs",
-              "DocumentMoniker": "C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\ClassLibrary1\\class1\\Ingredients.cs",
-              "RelativeDocumentMoniker": "ClassLibrary1\\class1\\Ingredients.cs",
-              "ToolTip": "C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\ClassLibrary1\\class1\\Ingredients.cs",
-              "RelativeToolTip": "ClassLibrary1\\class1\\Ingredients.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T14:53:29.504Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AddStockClass.cs",
-              "DocumentMoniker": "C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\ClassLibrary1\\class1\\AddStockClass.cs",
-              "RelativeDocumentMoniker": "ClassLibrary1\\class1\\AddStockClass.cs",
-              "ToolTip": "C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\ClassLibrary1\\class1\\AddStockClass.cs",
-              "RelativeToolTip": "ClassLibrary1\\class1\\AddStockClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T15:07:50.43Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "SeeIngredientsForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\GestioFoods\\SeeIngredientsForm.cs",
-              "RelativeDocumentMoniker": "GestioFoods\\SeeIngredientsForm.cs",
-              "ToolTip": "C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\GestioFoods\\SeeIngredientsForm.cs [Design]",
-              "RelativeToolTip": "GestioFoods\\SeeIngredientsForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T15:22:38.656Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ModifyProductForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\GestioFoods\\ModifyProductForm.cs",
-              "RelativeDocumentMoniker": "GestioFoods\\ModifyProductForm.cs",
-              "ToolTip": "C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\GestioFoods\\ModifyProductForm.cs [Design]",
-              "RelativeToolTip": "GestioFoods\\ModifyProductForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T15:22:49.361Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "AddProductForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\GestioFoods\\AddProductForm.cs",
               "RelativeDocumentMoniker": "GestioFoods\\AddProductForm.cs",
               "ToolTip": "C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\GestioFoods\\AddProductForm.cs [Design]",
               "RelativeToolTip": "GestioFoods\\AddProductForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T15:12:12.752Z"
+              "WhenOpened": "2024-05-12T19:53:21.627Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddStock.cs",
+              "DocumentMoniker": "C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\GestioFoods\\AddStock.cs",
+              "RelativeDocumentMoniker": "GestioFoods\\AddStock.cs",
+              "ToolTip": "C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\GestioFoods\\AddStock.cs",
+              "RelativeToolTip": "GestioFoods\\AddStock.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAvwCEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T19:44:30.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddStock.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\GestioFoods\\AddStock.cs",
+              "RelativeDocumentMoniker": "GestioFoods\\AddStock.cs",
+              "ToolTip": "C:\\Users\\bunea\\Desktop\\GestioFoods\\GestioFood\\GestioFoods\\AddStock.cs [Design]",
+              "RelativeToolTip": "GestioFoods\\AddStock.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T19:44:29.107Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

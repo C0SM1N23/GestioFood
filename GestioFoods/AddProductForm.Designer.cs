@@ -43,6 +43,9 @@
             label7 = new Label();
             releaseDate = new DateTimePicker();
             panelHardware = new Panel();
+            radioButton4 = new RadioButton();
+            radioButton5 = new RadioButton();
+            radioButton10 = new RadioButton();
             radioButton11 = new RadioButton();
             radioButton12 = new RadioButton();
             radioButton13 = new RadioButton();
@@ -58,12 +61,9 @@
             label10 = new Label();
             tbModel = new TextBox();
             label9 = new Label();
-            tbManufacturer = new TextBox();
             Manufaturer = new Label();
             btnAdd = new Button();
-            radioButton4 = new RadioButton();
-            radioButton5 = new RadioButton();
-            radioButton10 = new RadioButton();
+            comboBox1 = new ComboBox();
             ((System.ComponentModel.ISupportInitialize)nudPrice).BeginInit();
             panelHardware.SuspendLayout();
             SuspendLayout();
@@ -239,6 +239,7 @@
             // 
             // panelHardware
             // 
+            panelHardware.Controls.Add(comboBox1);
             panelHardware.Controls.Add(radioButton4);
             panelHardware.Controls.Add(radioButton5);
             panelHardware.Controls.Add(radioButton10);
@@ -257,7 +258,6 @@
             panelHardware.Controls.Add(label10);
             panelHardware.Controls.Add(tbModel);
             panelHardware.Controls.Add(label9);
-            panelHardware.Controls.Add(tbManufacturer);
             panelHardware.Controls.Add(Manufaturer);
             panelHardware.Location = new Point(69, 178);
             panelHardware.Margin = new Padding(3, 2, 3, 2);
@@ -265,6 +265,48 @@
             panelHardware.Size = new Size(608, 157);
             panelHardware.TabIndex = 20;
             panelHardware.Visible = false;
+            // 
+            // radioButton4
+            // 
+            radioButton4.AutoSize = true;
+            radioButton4.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            radioButton4.ForeColor = Color.White;
+            radioButton4.Location = new Point(508, 116);
+            radioButton4.Name = "radioButton4";
+            radioButton4.Size = new Size(86, 19);
+            radioButton4.TabIndex = 42;
+            radioButton4.TabStop = true;
+            radioButton4.Text = "BBQ sauce";
+            radioButton4.TextAlign = ContentAlignment.TopLeft;
+            radioButton4.UseVisualStyleBackColor = true;
+            // 
+            // radioButton5
+            // 
+            radioButton5.AutoSize = true;
+            radioButton5.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            radioButton5.ForeColor = Color.White;
+            radioButton5.Location = new Point(508, 91);
+            radioButton5.Name = "radioButton5";
+            radioButton5.Size = new Size(79, 19);
+            radioButton5.TabIndex = 41;
+            radioButton5.TabStop = true;
+            radioButton5.Text = "Prosciutto";
+            radioButton5.TextAlign = ContentAlignment.TopLeft;
+            radioButton5.UseVisualStyleBackColor = true;
+            // 
+            // radioButton10
+            // 
+            radioButton10.AutoSize = true;
+            radioButton10.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            radioButton10.ForeColor = Color.White;
+            radioButton10.Location = new Point(508, 66);
+            radioButton10.Name = "radioButton10";
+            radioButton10.Size = new Size(60, 19);
+            radioButton10.TabIndex = 40;
+            radioButton10.TabStop = true;
+            radioButton10.Text = "Bacon";
+            radioButton10.TextAlign = ContentAlignment.TopLeft;
+            radioButton10.UseVisualStyleBackColor = true;
             // 
             // radioButton11
             // 
@@ -419,7 +461,6 @@
             radioButton1.Text = "Pepperoni";
             radioButton1.TextAlign = ContentAlignment.TopLeft;
             radioButton1.UseVisualStyleBackColor = true;
-            radioButton1.CheckedChanged += radioButton1_CheckedChanged_1;
             // 
             // rtbDough
             // 
@@ -434,7 +475,6 @@
             rtbDough.Text = "Dough";
             rtbDough.TextAlign = ContentAlignment.TopLeft;
             rtbDough.UseVisualStyleBackColor = true;
-            rtbDough.CheckedChanged += radioButton1_CheckedChanged;
             // 
             // label10
             // 
@@ -470,18 +510,6 @@
             label9.TabIndex = 23;
             label9.Text = "Cuisine:";
             // 
-            // tbManufacturer
-            // 
-            tbManufacturer.BackColor = Color.FromArgb(30, 168, 150);
-            tbManufacturer.BorderStyle = BorderStyle.None;
-            tbManufacturer.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            tbManufacturer.ForeColor = Color.White;
-            tbManufacturer.Location = new Point(125, 9);
-            tbManufacturer.Margin = new Padding(3, 2, 3, 2);
-            tbManufacturer.Name = "tbManufacturer";
-            tbManufacturer.Size = new Size(189, 19);
-            tbManufacturer.TabIndex = 22;
-            // 
             // Manufaturer
             // 
             Manufaturer.AutoSize = true;
@@ -500,7 +528,7 @@
             btnAdd.FlatStyle = FlatStyle.Flat;
             btnAdd.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnAdd.ForeColor = Color.White;
-            btnAdd.Location = new Point(259, 354);
+            btnAdd.Location = new Point(259, 360);
             btnAdd.Margin = new Padding(3, 2, 3, 2);
             btnAdd.Name = "btnAdd";
             btnAdd.Size = new Size(174, 41);
@@ -509,47 +537,17 @@
             btnAdd.UseVisualStyleBackColor = false;
             btnAdd.Click += btnAdd_Click;
             // 
-            // radioButton4
+            // comboBox1
             // 
-            radioButton4.AutoSize = true;
-            radioButton4.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            radioButton4.ForeColor = Color.White;
-            radioButton4.Location = new Point(508, 116);
-            radioButton4.Name = "radioButton4";
-            radioButton4.Size = new Size(86, 19);
-            radioButton4.TabIndex = 42;
-            radioButton4.TabStop = true;
-            radioButton4.Text = "BBQ sauce";
-            radioButton4.TextAlign = ContentAlignment.TopLeft;
-            radioButton4.UseVisualStyleBackColor = true;
-            // 
-            // radioButton5
-            // 
-            radioButton5.AutoSize = true;
-            radioButton5.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            radioButton5.ForeColor = Color.White;
-            radioButton5.Location = new Point(508, 91);
-            radioButton5.Name = "radioButton5";
-            radioButton5.Size = new Size(79, 19);
-            radioButton5.TabIndex = 41;
-            radioButton5.TabStop = true;
-            radioButton5.Text = "Prosciutto";
-            radioButton5.TextAlign = ContentAlignment.TopLeft;
-            radioButton5.UseVisualStyleBackColor = true;
-            // 
-            // radioButton10
-            // 
-            radioButton10.AutoSize = true;
-            radioButton10.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            radioButton10.ForeColor = Color.White;
-            radioButton10.Location = new Point(508, 66);
-            radioButton10.Name = "radioButton10";
-            radioButton10.Size = new Size(60, 19);
-            radioButton10.TabIndex = 40;
-            radioButton10.TabStop = true;
-            radioButton10.Text = "Bacon";
-            radioButton10.TextAlign = ContentAlignment.TopLeft;
-            radioButton10.UseVisualStyleBackColor = true;
+            comboBox1.BackColor = Color.White;
+            comboBox1.ForeColor = Color.Black;
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Items.AddRange(new object[] { "Breakfast", "Lunch", "Dinner" });
+            comboBox1.Location = new Point(117, 12);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(171, 23);
+            comboBox1.TabIndex = 43;
+            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
             // AddProductForm
             // 
@@ -600,7 +598,6 @@
 		private Label label7;
 		private DateTimePicker releaseDate;
 		private Panel panelHardware;
-		private TextBox tbManufacturer;
 		private Label Manufaturer;
 		private TextBox tbModel;
 		private Label label9;
@@ -621,5 +618,6 @@
         private RadioButton radioButton4;
         private RadioButton radioButton5;
         private RadioButton radioButton10;
+        private ComboBox comboBox1;
     }
 }
