@@ -8,8 +8,7 @@ namespace ClassLibrary1.class1
 {
     public class Food : Product
     {
-        public string Name { get; set; }
-        public decimal Price { get; set; }
+       
       
         public List<Ingredients> Ingredients { get; set; }
 
@@ -17,7 +16,6 @@ namespace ClassLibrary1.class1
         {
             Name = name;
             Price = price;
-           
             Ingredients = ingredients;
             
         }

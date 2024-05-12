@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary1.class1
 {
-    internal class LoginFormClass
+    public class LoginFormClass
     {
     }
 }

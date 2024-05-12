@@ -8,13 +8,13 @@ namespace ClassLibrary1.class1
 {
     public class Beverage : Product
     {
-        public string Name { get; set; }
-        public decimal Price { get; set; }
+        public int Quantity { get; set; }
 
-        public Beverage(string name, decimal price) : base(name, price) 
+        public Beverage(string name, decimal price, int quantity) : base(name, price)
         {
             Name = name;
             Price = price;
+            Quantity = quantity;    
         }
     }
 }
