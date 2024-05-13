@@ -1,5 +1,5 @@
-﻿using Gaming_Bros_Desktop_App;
-using Logic_Layer;
+﻿
+using ClassLibrary1.class1;
 
 namespace Desktop_App_.NET_8._0
 {
@@ -15,8 +15,7 @@ namespace Desktop_App_.NET_8._0
             InitializeComponent();
             editProductForm = editForm;
             productManager = ProductManager;
-            cmbGenre.DataSource = Enum.GetValues(typeof(Genre));
-            cmbPlatform.DataSource = Enum.GetValues(typeof(Platform));
+
             rbGame.Checked = true;
         }
 
@@ -33,7 +32,7 @@ namespace Desktop_App_.NET_8._0
         private void btnAdd_Click(object sender, EventArgs e)
         {
             string name = tbName.Text;
-            double price = Convert.ToDouble(nudPrice.Text);
+            decimal price = Convert.ToDecimal(nudPrice.Text);
 
             bool productExists = productManager.GetProducts().Any(p => p.Name == name);
 
@@ -51,46 +50,58 @@ namespace Desktop_App_.NET_8._0
                 {
                     if (rbGame.Checked)
                     {
-                        ProductType producttype = ProductType.Game;
-                        Genre genre = (Genre)cmbGenre.SelectedItem;
-                        Platform platform = (Platform)cmbPlatform.SelectedItem;
-                        DateTime releasedate = releaseDate.Value.Date;
-                        if (genre == null || platform == null || releasedate == DateTime.MinValue)
+                        string courseType = cmbCourse.SelectedItem.ToString();
+                        string Cuisine = cmbCuisine.SelectedItem.ToString();
+
+                        if (courseType == null || Cuisine == null)
                         {
                             MessageBox.Show("All fields should be filled.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
                         else
                         {
-                            Game game = new Game(name, ProductType.Game, price, genre, platform, releasedate, 0);
-                            productManager.AddProductDB(game);
+                            List<Ingredients> selectedIngredients = new List<Ingredients>();
+
+                            // Event handler for Add Product button click
+
+                            foreach (Control control in this.Controls)
+                            {
+                                if (control is RadioButton && ((RadioButton)control).Checked)
+                                {
+                                    string ingredientName = control.Text;
+                                    Ingredients ingredient = new Ingredients(ingredientName, 0);
+                                    selectedIngredients.Add(ingredient);
+                                }
+                            }
+                            
+                            Food food = new Food(name, price, selectedIngredients) ;
+                            productManager.AddProduct(food);
                             editProductForm.UpdateProductList(productManager.GetProducts());
-                            MessageBox.Show("Game added succesfully!");
+                            MessageBox.Show("Menu item added succesfully!");
                         }
                     }
                     else
                     {
-                        ProductType productType = ProductType.Hardware;
-                        string manufacturer = tbManufacturer.Text;
-                        string model = tbModel.Text;
-                        string specifications = rtbSpecs.Text;
-                        if (string.IsNullOrEmpty(manufacturer) || string.IsNullOrEmpty(model) || string.IsNullOrEmpty(specifications))
-                        {
-                            MessageBox.Show("All fields should be filled.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        Beverage beverage = new Beverage(name, price, 0);    
+                        productManager.AddProduct(beverage);
+                        editProductForm.UpdateProductList(productManager.GetProducts());
+                        MessageBox.Show("Beverage added succesfully!");
 
-                        }
-                        else
-                        {
-                            Hardware hardware = new Hardware(name, ProductType.Hardware, price, manufacturer, model, specifications, 0);
-                            productManager.AddProductDB(hardware);
-                            editProductForm.UpdateProductList(productManager.GetProducts());
-                            MessageBox.Show("Hardware added succesfully!");
-                        }
                     }
                 }
             }
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AddProductForm_Load(object sender, EventArgs e)
         {
 
         }

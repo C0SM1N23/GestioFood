@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary1.class1
 {
-    public class ProductManager
+    public class PersonManager
     {
-        private List<object> items = new List<object>();
+        private List<Person> items = new List<Person>();
 
-        public ProductManager()
+        public PersonManager()
         {
         }
 
-        public void AddItem(object item)
+        public void AddItem(Person item)
         {
             if (item is Person person)
             {

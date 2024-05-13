@@ -1,5 +1,5 @@
-﻿using Gaming_Bros_Desktop_App;
-using Logic_Layer;
+﻿
+using ClassLibrary1.class1;
 using System.Data;
 
 namespace Desktop_App_.NET_8._0
@@ -20,6 +20,7 @@ namespace Desktop_App_.NET_8._0
                 lbProducts.Items.Add(p);
             }
         }
+
         public void UpdateProductList(List<Product> products)
         {
             lbProducts.Items.Clear();

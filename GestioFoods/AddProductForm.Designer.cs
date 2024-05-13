@@ -36,13 +36,9 @@
             label4 = new Label();
             rbGame = new RadioButton();
             rbHardware = new RadioButton();
-            label5 = new Label();
-            cmbGenre = new ComboBox();
-            cmbPlatform = new ComboBox();
-            label6 = new Label();
-            label7 = new Label();
-            releaseDate = new DateTimePicker();
             panelHardware = new Panel();
+            cmbCuisine = new ComboBox();
+            cmbCourse = new ComboBox();
             radioButton4 = new RadioButton();
             radioButton5 = new RadioButton();
             radioButton10 = new RadioButton();
@@ -59,11 +55,9 @@
             radioButton1 = new RadioButton();
             rtbDough = new RadioButton();
             label10 = new Label();
-            tbModel = new TextBox();
             label9 = new Label();
             Manufaturer = new Label();
             btnAdd = new Button();
-            comboBox1 = new ComboBox();
             ((System.ComponentModel.ISupportInitialize)nudPrice).BeginInit();
             panelHardware.SuspendLayout();
             SuspendLayout();
@@ -167,79 +161,10 @@
             rbHardware.UseVisualStyleBackColor = true;
             rbHardware.CheckedChanged += rbHardware_CheckedChanged;
             // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Microsoft Sans Serif", 10.7999992F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.ForeColor = Color.White;
-            label5.Location = new Point(69, 192);
-            label5.Name = "label5";
-            label5.Size = new Size(59, 18);
-            label5.TabIndex = 14;
-            label5.Text = "Genre:";
-            // 
-            // cmbGenre
-            // 
-            cmbGenre.BackColor = Color.FromArgb(30, 168, 150);
-            cmbGenre.FlatStyle = FlatStyle.Flat;
-            cmbGenre.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            cmbGenre.ForeColor = Color.White;
-            cmbGenre.FormattingEnabled = true;
-            cmbGenre.Location = new Point(135, 188);
-            cmbGenre.Margin = new Padding(3, 2, 3, 2);
-            cmbGenre.Name = "cmbGenre";
-            cmbGenre.Size = new Size(139, 28);
-            cmbGenre.TabIndex = 15;
-            // 
-            // cmbPlatform
-            // 
-            cmbPlatform.BackColor = Color.FromArgb(30, 168, 150);
-            cmbPlatform.FlatStyle = FlatStyle.Flat;
-            cmbPlatform.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            cmbPlatform.ForeColor = Color.White;
-            cmbPlatform.FormattingEnabled = true;
-            cmbPlatform.Location = new Point(427, 188);
-            cmbPlatform.Margin = new Padding(3, 2, 3, 2);
-            cmbPlatform.Name = "cmbPlatform";
-            cmbPlatform.Size = new Size(139, 28);
-            cmbPlatform.TabIndex = 17;
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Microsoft Sans Serif", 10.7999992F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label6.ForeColor = Color.White;
-            label6.Location = new Point(343, 192);
-            label6.Name = "label6";
-            label6.Size = new Size(77, 18);
-            label6.TabIndex = 16;
-            label6.Text = "Platform:";
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Font = new Font("Microsoft Sans Serif", 10.7999992F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label7.ForeColor = Color.White;
-            label7.Location = new Point(194, 248);
-            label7.Name = "label7";
-            label7.Size = new Size(111, 18);
-            label7.TabIndex = 18;
-            label7.Text = "Release date:";
-            // 
-            // releaseDate
-            // 
-            releaseDate.CalendarMonthBackground = Color.FromArgb(30, 168, 150);
-            releaseDate.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            releaseDate.Location = new Point(312, 244);
-            releaseDate.Margin = new Padding(3, 2, 3, 2);
-            releaseDate.Name = "releaseDate";
-            releaseDate.Size = new Size(219, 26);
-            releaseDate.TabIndex = 19;
-            releaseDate.Value = new DateTime(2024, 3, 28, 0, 0, 0, 0);
-            // 
             // panelHardware
             // 
-            panelHardware.Controls.Add(comboBox1);
+            panelHardware.Controls.Add(cmbCuisine);
+            panelHardware.Controls.Add(cmbCourse);
             panelHardware.Controls.Add(radioButton4);
             panelHardware.Controls.Add(radioButton5);
             panelHardware.Controls.Add(radioButton10);
@@ -256,15 +181,37 @@
             panelHardware.Controls.Add(radioButton1);
             panelHardware.Controls.Add(rtbDough);
             panelHardware.Controls.Add(label10);
-            panelHardware.Controls.Add(tbModel);
             panelHardware.Controls.Add(label9);
             panelHardware.Controls.Add(Manufaturer);
-            panelHardware.Location = new Point(69, 178);
+            panelHardware.Location = new Point(69, 184);
             panelHardware.Margin = new Padding(3, 2, 3, 2);
             panelHardware.Name = "panelHardware";
             panelHardware.Size = new Size(608, 157);
             panelHardware.TabIndex = 20;
             panelHardware.Visible = false;
+            // 
+            // cmbCuisine
+            // 
+            cmbCuisine.BackColor = Color.White;
+            cmbCuisine.ForeColor = Color.Black;
+            cmbCuisine.FormattingEnabled = true;
+            cmbCuisine.Items.AddRange(new object[] { "Italian", "American" });
+            cmbCuisine.Location = new Point(79, 38);
+            cmbCuisine.Name = "cmbCuisine";
+            cmbCuisine.Size = new Size(171, 23);
+            cmbCuisine.TabIndex = 44;
+            // 
+            // cmbCourse
+            // 
+            cmbCourse.BackColor = Color.White;
+            cmbCourse.ForeColor = Color.Black;
+            cmbCourse.FormattingEnabled = true;
+            cmbCourse.Items.AddRange(new object[] { "Breakfast", "Lunch", "Dinner" });
+            cmbCourse.Location = new Point(117, 12);
+            cmbCourse.Name = "cmbCourse";
+            cmbCourse.Size = new Size(171, 23);
+            cmbCourse.TabIndex = 43;
+            cmbCourse.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
             // radioButton4
             // 
@@ -487,18 +434,6 @@
             label10.TabIndex = 25;
             label10.Text = "Ingredients:";
             // 
-            // tbModel
-            // 
-            tbModel.BackColor = Color.FromArgb(30, 168, 150);
-            tbModel.BorderStyle = BorderStyle.None;
-            tbModel.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            tbModel.ForeColor = Color.White;
-            tbModel.Location = new Point(69, 39);
-            tbModel.Margin = new Padding(3, 2, 3, 2);
-            tbModel.Name = "tbModel";
-            tbModel.Size = new Size(189, 19);
-            tbModel.TabIndex = 24;
-            // 
             // label9
             // 
             label9.AutoSize = true;
@@ -537,18 +472,6 @@
             btnAdd.UseVisualStyleBackColor = false;
             btnAdd.Click += btnAdd_Click;
             // 
-            // comboBox1
-            // 
-            comboBox1.BackColor = Color.White;
-            comboBox1.ForeColor = Color.Black;
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "Breakfast", "Lunch", "Dinner" });
-            comboBox1.Location = new Point(117, 12);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(171, 23);
-            comboBox1.TabIndex = 43;
-            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
-            // 
             // AddProductForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -557,12 +480,6 @@
             ClientSize = new Size(743, 412);
             Controls.Add(btnAdd);
             Controls.Add(panelHardware);
-            Controls.Add(releaseDate);
-            Controls.Add(label7);
-            Controls.Add(cmbPlatform);
-            Controls.Add(label6);
-            Controls.Add(cmbGenre);
-            Controls.Add(label5);
             Controls.Add(rbHardware);
             Controls.Add(rbGame);
             Controls.Add(label4);
@@ -574,6 +491,7 @@
             Margin = new Padding(3, 2, 3, 2);
             Name = "AddProductForm";
             Text = "AddProductForm";
+            Load += AddProductForm_Load;
             ((System.ComponentModel.ISupportInitialize)nudPrice).EndInit();
             panelHardware.ResumeLayout(false);
             panelHardware.PerformLayout();
@@ -591,15 +509,8 @@
 		private Label label4;
 		private RadioButton rbGame;
 		private RadioButton rbHardware;
-		private Label label5;
-		private ComboBox cmbGenre;
-		private ComboBox cmbPlatform;
-		private Label label6;
-		private Label label7;
-		private DateTimePicker releaseDate;
 		private Panel panelHardware;
 		private Label Manufaturer;
-		private TextBox tbModel;
 		private Label label9;
 		private Label label10;
 		private Button btnAdd;
@@ -618,6 +529,7 @@
         private RadioButton radioButton4;
         private RadioButton radioButton5;
         private RadioButton radioButton10;
-        private ComboBox comboBox1;
+        private ComboBox cmbCourse;
+        private ComboBox cmbCuisine;
     }
 }

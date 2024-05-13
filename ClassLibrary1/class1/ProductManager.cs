@@ -20,8 +20,13 @@ namespace ClassLibrary1.class1
             { 
                 products.Add(beverage); 
             }
-                
 
-        } 
+
+        }
+        public List<Product> GetProducts()
+        {
+            return products;
+
+        }
     }
 }

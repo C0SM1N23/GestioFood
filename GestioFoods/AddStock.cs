@@ -19,7 +19,7 @@ namespace Desktop_App_.NET_8._0
         public AddStock(ModifyProductForm modifyform, ProductManager productmanager, Product selectedProduct)
         {
             InitializeComponent();
-            this.modifyForm = modifyform; 
+            this.modifyForm = modifyform;
             this.productManager = productmanager;
             this.editedProduct = selectedProduct;
         }
@@ -36,6 +36,11 @@ namespace Desktop_App_.NET_8._0
             modifyForm.UpdateProductList(productManager.GetProducts());
             MessageBox.Show("Stock succesfully updated!");
             this.Close();
+        }
+
+        private void AddStock_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
