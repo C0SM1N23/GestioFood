@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/GestioFoods/EditDetailsForm.cs
+/GestioFoods/LoginForm.cs
