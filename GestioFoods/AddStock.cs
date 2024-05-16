@@ -1,4 +1,5 @@
-﻿using Logic_Layer;
+﻿using ClassLibrary1.class1;
+
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,14 +15,25 @@ namespace Desktop_App_.NET_8._0
     public partial class AddStock : Form
     {
         ModifyProductForm modifyForm;
-        ProductManager productManager;
-        Product editedProduct;
-        public AddStock(ModifyProductForm modifyform, ProductManager productmanager, Product selectedProduct)
+        IngredientManager ingredientManager;
+        Ingredients editedIngredient;
+        private ModifyProductForm modifyProductForm;
+        private ProductManager productManager;
+        private Product selectedProduct;
+
+        public AddStock(ModifyProductForm modifyform, Ingredients selectedIngredient, IngredientManager ingredientManager)
         {
             InitializeComponent();
             this.modifyForm = modifyform;
-            this.productManager = productmanager;
-            this.editedProduct = selectedProduct;
+            this.ingredientManager = ingredientManager;
+            this.editedIngredient = selectedIngredient;
+        }
+
+        public AddStock(ModifyProductForm modifyProductForm, ProductManager productManager, Product selectedProduct)
+        {
+            this.modifyProductForm = modifyProductForm;
+            this.productManager = productManager;
+            this.selectedProduct = selectedProduct;
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -32,8 +44,8 @@ namespace Desktop_App_.NET_8._0
         private void btnAddStock_Click(object sender, EventArgs e)
         {
             int stock = Convert.ToInt32(nudStock.Value);
-            productManager.AddStock(editedProduct.Id, stock);
-            modifyForm.UpdateProductList(productManager.GetProducts());
+            ingredientManager.AddStock(editedIngredient ,stock);
+            modifyForm.UpdateProductList(ingredientManager.getIngredients());
             MessageBox.Show("Stock succesfully updated!");
             this.Close();
         }

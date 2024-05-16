@@ -10,3 +10,4 @@ C:\Users\bunea\Desktop\GestioFoods\GestioFood\ClassLibrary1\obj\Debug\net8.0\Cla
 C:\Users\bunea\Desktop\GestioFoods\GestioFood\ClassLibrary1\obj\Debug\net8.0\refint\ClassLibrary1.dll
 C:\Users\bunea\Desktop\GestioFoods\GestioFood\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.pdb
 C:\Users\bunea\Desktop\GestioFoods\GestioFood\ClassLibrary1\obj\Debug\net8.0\ref\ClassLibrary1.dll
+C:\Users\bunea\Desktop\GestioFoods\GestioFood\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.csproj.AssemblyReference.cache

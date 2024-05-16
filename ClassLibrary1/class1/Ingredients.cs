@@ -16,5 +16,10 @@ namespace ClassLibrary1.class1
             Name = name;
             Quantity = quantity;
         }
+        public override string ToString()
+        {
+
+            return $"Ingredient: {Name}" ;
+        }
     }
 }

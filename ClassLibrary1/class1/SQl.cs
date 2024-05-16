@@ -34,13 +34,14 @@ namespace ClassLibrary1.class1
                     {
                         string ingredients = reader["ingredients"].ToString();
                         string platform = reader["Platform"].ToString();
-                        Food food= new Food(name, price , List<ingredients>) // !
+                        List<Ingredients> ingredientsList = new List<Ingredients>();
+                        Food food = new Food(name, price, ProductType.Food, ingredientsList);
                         fetchedProducts.Add(food);
                     }
                     else if (type == "Beverage")
                     {
                         int quantity = Convert.ToInt32(reader["quantity"]);
-                        Beverage beverage = new Beverage( name, price , quantity );
+                        Beverage beverage = new Beverage( name, price , ProductType.Beverage, quantity );
                         fetchedProducts.Add(beverage);
                     }
                 }

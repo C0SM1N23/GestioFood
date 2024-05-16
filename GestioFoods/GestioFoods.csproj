@@ -9,6 +9,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="EditDetailsForm.cs" />
+    <Compile Remove="EditDetailsForm.Designer.cs" />
+    <Compile Remove="LoginForm.cs" />
+    <Compile Remove="LoginForm.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="EditDetailsForm.resx" />
+    <EmbeddedResource Remove="LoginForm.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="FontAwesome.Sharp" Version="6.3.0" />
   </ItemGroup>
 

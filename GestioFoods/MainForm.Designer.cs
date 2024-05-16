@@ -80,7 +80,7 @@
             iconButton3.Text = "Ingredients";
             iconButton3.TextImageRelation = TextImageRelation.ImageBeforeText;
             iconButton3.UseVisualStyleBackColor = false;
-            iconButton3.Click += iconButton3_Click_1;
+           // iconButton3.Click += iconButton3_Click_1;
             // 
             // iconButton2
             // 

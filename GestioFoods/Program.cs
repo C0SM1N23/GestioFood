@@ -7,7 +7,7 @@ namespace Desktop_App_.NET_8._0
         static void Main()
        {
             ApplicationConfiguration.Initialize();
-            Application.Run(new LoginForm());
+            Application.Run(new MainForm());
         }
     }
 }

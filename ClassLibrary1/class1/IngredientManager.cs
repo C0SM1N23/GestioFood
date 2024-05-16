@@ -8,25 +8,35 @@ namespace ClassLibrary1.class1
 {
     public class IngredientManager
     {
-        public List<string> Ingredients { get; set; }
+        public List<Ingredients> Ingredients { get; set; }
 
-        public IngredientManager(List<string> ingredients)
+        public IngredientManager(List<Ingredients> ingredients)
         {
             Ingredients = ingredients;
         }
 
-        public void AddIngredient(string ingredient)
+        public IngredientManager()
+        {
+        }
+
+        public void AddIngredient(Ingredients ingredient)
         {
             Ingredients.Add(ingredient);
         }
 
-        public void IncreaseStock(string ingredient, int quantity)
+        public void AddStock(Ingredients ingredient, int quantity)
         {
-            int index = Ingredients.IndexOf(ingredient);
-            if (index != -1)
+            foreach(Ingredients i in Ingredients)
             {
-                Ingredients[index] += quantity;
+                if(i== ingredient)
+                {
+                    ingredient.Quantity += quantity;
+                }
             }
+        }
+        public List<Ingredients> getIngredients()
+        {
+            return Ingredients;
         }
 
     }

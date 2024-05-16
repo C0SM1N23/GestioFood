@@ -36,28 +36,28 @@
             label4 = new Label();
             rbGame = new RadioButton();
             rbHardware = new RadioButton();
-            panelHardware = new Panel();
-            cmbCuisine = new ComboBox();
-            cmbCourse = new ComboBox();
-            radioButton4 = new RadioButton();
-            radioButton5 = new RadioButton();
-            radioButton10 = new RadioButton();
-            radioButton11 = new RadioButton();
-            radioButton12 = new RadioButton();
-            radioButton13 = new RadioButton();
-            radioButton14 = new RadioButton();
-            radioButton6 = new RadioButton();
-            radioButton7 = new RadioButton();
-            radioButton8 = new RadioButton();
-            radioButton9 = new RadioButton();
-            radioButton3 = new RadioButton();
-            radioButton2 = new RadioButton();
-            radioButton1 = new RadioButton();
-            rtbDough = new RadioButton();
-            label10 = new Label();
-            label9 = new Label();
-            Manufaturer = new Label();
             btnAdd = new Button();
+            checkBox1 = new CheckBox();
+            Manufaturer = new Label();
+            label9 = new Label();
+            label10 = new Label();
+            cmbCourse = new ComboBox();
+            cmbCuisine = new ComboBox();
+            panelHardware = new Panel();
+            checkBox13 = new CheckBox();
+            checkBox14 = new CheckBox();
+            checkBox15 = new CheckBox();
+            checkBox10 = new CheckBox();
+            checkBox11 = new CheckBox();
+            checkBox12 = new CheckBox();
+            checkBox7 = new CheckBox();
+            checkBox8 = new CheckBox();
+            checkBox9 = new CheckBox();
+            checkBox4 = new CheckBox();
+            checkBox5 = new CheckBox();
+            checkBox6 = new CheckBox();
+            checkBox3 = new CheckBox();
+            checkBox2 = new CheckBox();
             ((System.ComponentModel.ISupportInitialize)nudPrice).BeginInit();
             panelHardware.SuspendLayout();
             SuspendLayout();
@@ -161,301 +161,6 @@
             rbHardware.UseVisualStyleBackColor = true;
             rbHardware.CheckedChanged += rbHardware_CheckedChanged;
             // 
-            // panelHardware
-            // 
-            panelHardware.Controls.Add(cmbCuisine);
-            panelHardware.Controls.Add(cmbCourse);
-            panelHardware.Controls.Add(radioButton4);
-            panelHardware.Controls.Add(radioButton5);
-            panelHardware.Controls.Add(radioButton10);
-            panelHardware.Controls.Add(radioButton11);
-            panelHardware.Controls.Add(radioButton12);
-            panelHardware.Controls.Add(radioButton13);
-            panelHardware.Controls.Add(radioButton14);
-            panelHardware.Controls.Add(radioButton6);
-            panelHardware.Controls.Add(radioButton7);
-            panelHardware.Controls.Add(radioButton8);
-            panelHardware.Controls.Add(radioButton9);
-            panelHardware.Controls.Add(radioButton3);
-            panelHardware.Controls.Add(radioButton2);
-            panelHardware.Controls.Add(radioButton1);
-            panelHardware.Controls.Add(rtbDough);
-            panelHardware.Controls.Add(label10);
-            panelHardware.Controls.Add(label9);
-            panelHardware.Controls.Add(Manufaturer);
-            panelHardware.Location = new Point(69, 184);
-            panelHardware.Margin = new Padding(3, 2, 3, 2);
-            panelHardware.Name = "panelHardware";
-            panelHardware.Size = new Size(608, 157);
-            panelHardware.TabIndex = 20;
-            panelHardware.Visible = false;
-            // 
-            // cmbCuisine
-            // 
-            cmbCuisine.BackColor = Color.White;
-            cmbCuisine.ForeColor = Color.Black;
-            cmbCuisine.FormattingEnabled = true;
-            cmbCuisine.Items.AddRange(new object[] { "Italian", "American" });
-            cmbCuisine.Location = new Point(79, 38);
-            cmbCuisine.Name = "cmbCuisine";
-            cmbCuisine.Size = new Size(171, 23);
-            cmbCuisine.TabIndex = 44;
-            // 
-            // cmbCourse
-            // 
-            cmbCourse.BackColor = Color.White;
-            cmbCourse.ForeColor = Color.Black;
-            cmbCourse.FormattingEnabled = true;
-            cmbCourse.Items.AddRange(new object[] { "Breakfast", "Lunch", "Dinner" });
-            cmbCourse.Location = new Point(117, 12);
-            cmbCourse.Name = "cmbCourse";
-            cmbCourse.Size = new Size(171, 23);
-            cmbCourse.TabIndex = 43;
-            cmbCourse.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
-            // 
-            // radioButton4
-            // 
-            radioButton4.AutoSize = true;
-            radioButton4.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            radioButton4.ForeColor = Color.White;
-            radioButton4.Location = new Point(508, 116);
-            radioButton4.Name = "radioButton4";
-            radioButton4.Size = new Size(86, 19);
-            radioButton4.TabIndex = 42;
-            radioButton4.TabStop = true;
-            radioButton4.Text = "BBQ sauce";
-            radioButton4.TextAlign = ContentAlignment.TopLeft;
-            radioButton4.UseVisualStyleBackColor = true;
-            // 
-            // radioButton5
-            // 
-            radioButton5.AutoSize = true;
-            radioButton5.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            radioButton5.ForeColor = Color.White;
-            radioButton5.Location = new Point(508, 91);
-            radioButton5.Name = "radioButton5";
-            radioButton5.Size = new Size(79, 19);
-            radioButton5.TabIndex = 41;
-            radioButton5.TabStop = true;
-            radioButton5.Text = "Prosciutto";
-            radioButton5.TextAlign = ContentAlignment.TopLeft;
-            radioButton5.UseVisualStyleBackColor = true;
-            // 
-            // radioButton10
-            // 
-            radioButton10.AutoSize = true;
-            radioButton10.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            radioButton10.ForeColor = Color.White;
-            radioButton10.Location = new Point(508, 66);
-            radioButton10.Name = "radioButton10";
-            radioButton10.Size = new Size(60, 19);
-            radioButton10.TabIndex = 40;
-            radioButton10.TabStop = true;
-            radioButton10.Text = "Bacon";
-            radioButton10.TextAlign = ContentAlignment.TopLeft;
-            radioButton10.UseVisualStyleBackColor = true;
-            // 
-            // radioButton11
-            // 
-            radioButton11.AutoSize = true;
-            radioButton11.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            radioButton11.ForeColor = Color.White;
-            radioButton11.Location = new Point(409, 116);
-            radioButton11.Name = "radioButton11";
-            radioButton11.Size = new Size(74, 19);
-            radioButton11.TabIndex = 39;
-            radioButton11.TabStop = true;
-            radioButton11.Text = "Sausage";
-            radioButton11.TextAlign = ContentAlignment.TopLeft;
-            radioButton11.UseVisualStyleBackColor = true;
-            // 
-            // radioButton12
-            // 
-            radioButton12.AutoSize = true;
-            radioButton12.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            radioButton12.ForeColor = Color.White;
-            radioButton12.Location = new Point(302, 116);
-            radioButton12.Name = "radioButton12";
-            radioButton12.Size = new Size(85, 19);
-            radioButton12.TabIndex = 38;
-            radioButton12.TabStop = true;
-            radioButton12.Text = "Parmesan ";
-            radioButton12.TextAlign = ContentAlignment.TopLeft;
-            radioButton12.UseVisualStyleBackColor = true;
-            // 
-            // radioButton13
-            // 
-            radioButton13.AutoSize = true;
-            radioButton13.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            radioButton13.ForeColor = Color.White;
-            radioButton13.Location = new Point(206, 117);
-            radioButton13.Name = "radioButton13";
-            radioButton13.Size = new Size(64, 19);
-            radioButton13.TabIndex = 37;
-            radioButton13.TabStop = true;
-            radioButton13.Text = "Onions";
-            radioButton13.TextAlign = ContentAlignment.TopLeft;
-            radioButton13.UseVisualStyleBackColor = true;
-            // 
-            // radioButton14
-            // 
-            radioButton14.AutoSize = true;
-            radioButton14.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            radioButton14.ForeColor = Color.White;
-            radioButton14.Location = new Point(105, 117);
-            radioButton14.Name = "radioButton14";
-            radioButton14.Size = new Size(86, 19);
-            radioButton14.TabIndex = 36;
-            radioButton14.TabStop = true;
-            radioButton14.Text = "Mozzarella";
-            radioButton14.TextAlign = ContentAlignment.TopLeft;
-            radioButton14.UseVisualStyleBackColor = true;
-            // 
-            // radioButton6
-            // 
-            radioButton6.AutoSize = true;
-            radioButton6.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            radioButton6.ForeColor = Color.White;
-            radioButton6.Location = new Point(409, 91);
-            radioButton6.Name = "radioButton6";
-            radioButton6.Size = new Size(69, 19);
-            radioButton6.TabIndex = 34;
-            radioButton6.TabStop = true;
-            radioButton6.Text = "Chicken";
-            radioButton6.TextAlign = ContentAlignment.TopLeft;
-            radioButton6.UseVisualStyleBackColor = true;
-            // 
-            // radioButton7
-            // 
-            radioButton7.AutoSize = true;
-            radioButton7.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            radioButton7.ForeColor = Color.White;
-            radioButton7.Location = new Point(302, 91);
-            radioButton7.Name = "radioButton7";
-            radioButton7.Size = new Size(57, 19);
-            radioButton7.TabIndex = 33;
-            radioButton7.TabStop = true;
-            radioButton7.Text = "Garlic";
-            radioButton7.TextAlign = ContentAlignment.TopLeft;
-            radioButton7.UseVisualStyleBackColor = true;
-            // 
-            // radioButton8
-            // 
-            radioButton8.AutoSize = true;
-            radioButton8.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            radioButton8.ForeColor = Color.White;
-            radioButton8.Location = new Point(206, 92);
-            radioButton8.Name = "radioButton8";
-            radioButton8.Size = new Size(91, 19);
-            radioButton8.TabIndex = 32;
-            radioButton8.TabStop = true;
-            radioButton8.Text = "Mushrooms";
-            radioButton8.TextAlign = ContentAlignment.TopLeft;
-            radioButton8.UseVisualStyleBackColor = true;
-            // 
-            // radioButton9
-            // 
-            radioButton9.AutoSize = true;
-            radioButton9.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            radioButton9.ForeColor = Color.White;
-            radioButton9.Location = new Point(105, 92);
-            radioButton9.Name = "radioButton9";
-            radioButton9.Size = new Size(103, 19);
-            radioButton9.TabIndex = 31;
-            radioButton9.TabStop = true;
-            radioButton9.Text = "Tomato sauce";
-            radioButton9.TextAlign = ContentAlignment.TopLeft;
-            radioButton9.UseVisualStyleBackColor = true;
-            // 
-            // radioButton3
-            // 
-            radioButton3.AutoSize = true;
-            radioButton3.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            radioButton3.ForeColor = Color.White;
-            radioButton3.Location = new Point(409, 66);
-            radioButton3.Name = "radioButton3";
-            radioButton3.Size = new Size(63, 19);
-            radioButton3.TabIndex = 29;
-            radioButton3.TabStop = true;
-            radioButton3.Text = "Ricotta";
-            radioButton3.TextAlign = ContentAlignment.TopLeft;
-            radioButton3.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            radioButton2.AutoSize = true;
-            radioButton2.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            radioButton2.ForeColor = Color.White;
-            radioButton2.Location = new Point(302, 66);
-            radioButton2.Name = "radioButton2";
-            radioButton2.Size = new Size(58, 19);
-            radioButton2.TabIndex = 28;
-            radioButton2.TabStop = true;
-            radioButton2.Text = "Olives";
-            radioButton2.TextAlign = ContentAlignment.TopLeft;
-            radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton1
-            // 
-            radioButton1.AutoSize = true;
-            radioButton1.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            radioButton1.ForeColor = Color.White;
-            radioButton1.Location = new Point(206, 67);
-            radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(82, 19);
-            radioButton1.TabIndex = 27;
-            radioButton1.TabStop = true;
-            radioButton1.Text = "Pepperoni";
-            radioButton1.TextAlign = ContentAlignment.TopLeft;
-            radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // rtbDough
-            // 
-            rtbDough.AutoSize = true;
-            rtbDough.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            rtbDough.ForeColor = Color.White;
-            rtbDough.Location = new Point(105, 67);
-            rtbDough.Name = "rtbDough";
-            rtbDough.Size = new Size(62, 19);
-            rtbDough.TabIndex = 26;
-            rtbDough.TabStop = true;
-            rtbDough.Text = "Dough";
-            rtbDough.TextAlign = ContentAlignment.TopLeft;
-            rtbDough.UseVisualStyleBackColor = true;
-            // 
-            // label10
-            // 
-            label10.AutoSize = true;
-            label10.Font = new Font("Microsoft Sans Serif", 10.7999992F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label10.ForeColor = Color.White;
-            label10.Location = new Point(4, 68);
-            label10.Name = "label10";
-            label10.Size = new Size(95, 18);
-            label10.TabIndex = 25;
-            label10.Text = "Ingredients:";
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.Font = new Font("Microsoft Sans Serif", 10.7999992F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label9.ForeColor = Color.White;
-            label9.Location = new Point(4, 40);
-            label9.Name = "label9";
-            label9.Size = new Size(69, 18);
-            label9.TabIndex = 23;
-            label9.Text = "Cuisine:";
-            // 
-            // Manufaturer
-            // 
-            Manufaturer.AutoSize = true;
-            Manufaturer.Font = new Font("Microsoft Sans Serif", 10.7999992F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            Manufaturer.ForeColor = Color.White;
-            Manufaturer.Location = new Point(4, 12);
-            Manufaturer.Name = "Manufaturer";
-            Manufaturer.Size = new Size(109, 18);
-            Manufaturer.TabIndex = 21;
-            Manufaturer.Text = "Course Type:";
-            // 
             // btnAdd
             // 
             btnAdd.BackColor = Color.FromArgb(30, 168, 150);
@@ -471,6 +176,257 @@
             btnAdd.Text = "Add Product";
             btnAdd.UseVisualStyleBackColor = false;
             btnAdd.Click += btnAdd_Click;
+            // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.ForeColor = Color.White;
+            checkBox1.Location = new Point(108, 69);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(62, 19);
+            checkBox1.TabIndex = 22;
+            checkBox1.Text = "Dough";
+            checkBox1.UseVisualStyleBackColor = true;
+            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
+            // 
+            // Manufaturer
+            // 
+            Manufaturer.AutoSize = true;
+            Manufaturer.Font = new Font("Microsoft Sans Serif", 10.7999992F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Manufaturer.ForeColor = Color.White;
+            Manufaturer.Location = new Point(4, 12);
+            Manufaturer.Name = "Manufaturer";
+            Manufaturer.Size = new Size(109, 18);
+            Manufaturer.TabIndex = 21;
+            Manufaturer.Text = "Course Type:";
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Font = new Font("Microsoft Sans Serif", 10.7999992F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label9.ForeColor = Color.White;
+            label9.Location = new Point(4, 40);
+            label9.Name = "label9";
+            label9.Size = new Size(69, 18);
+            label9.TabIndex = 23;
+            label9.Text = "Cuisine:";
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Font = new Font("Microsoft Sans Serif", 10.7999992F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label10.ForeColor = Color.White;
+            label10.Location = new Point(4, 68);
+            label10.Name = "label10";
+            label10.Size = new Size(95, 18);
+            label10.TabIndex = 25;
+            label10.Text = "Ingredients:";
+            // 
+            // cmbCourse
+            // 
+            cmbCourse.BackColor = Color.White;
+            cmbCourse.ForeColor = Color.Black;
+            cmbCourse.FormattingEnabled = true;
+            cmbCourse.Items.AddRange(new object[] { "Breakfast", "Lunch", "Dinner" });
+            cmbCourse.Location = new Point(117, 12);
+            cmbCourse.Name = "cmbCourse";
+            cmbCourse.Size = new Size(171, 23);
+            cmbCourse.TabIndex = 43;
+            cmbCourse.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
+            // 
+            // cmbCuisine
+            // 
+            cmbCuisine.BackColor = Color.White;
+            cmbCuisine.ForeColor = Color.Black;
+            cmbCuisine.FormattingEnabled = true;
+            cmbCuisine.Items.AddRange(new object[] { "Italian", "American" });
+            cmbCuisine.Location = new Point(79, 38);
+            cmbCuisine.Name = "cmbCuisine";
+            cmbCuisine.Size = new Size(171, 23);
+            cmbCuisine.TabIndex = 44;
+            // 
+            // panelHardware
+            // 
+            panelHardware.Controls.Add(checkBox13);
+            panelHardware.Controls.Add(checkBox14);
+            panelHardware.Controls.Add(checkBox15);
+            panelHardware.Controls.Add(checkBox10);
+            panelHardware.Controls.Add(checkBox11);
+            panelHardware.Controls.Add(checkBox12);
+            panelHardware.Controls.Add(checkBox7);
+            panelHardware.Controls.Add(checkBox8);
+            panelHardware.Controls.Add(checkBox9);
+            panelHardware.Controls.Add(checkBox4);
+            panelHardware.Controls.Add(checkBox5);
+            panelHardware.Controls.Add(checkBox6);
+            panelHardware.Controls.Add(checkBox3);
+            panelHardware.Controls.Add(checkBox2);
+            panelHardware.Controls.Add(checkBox1);
+            panelHardware.Controls.Add(cmbCuisine);
+            panelHardware.Controls.Add(cmbCourse);
+            panelHardware.Controls.Add(label10);
+            panelHardware.Controls.Add(label9);
+            panelHardware.Controls.Add(Manufaturer);
+            panelHardware.Location = new Point(69, 184);
+            panelHardware.Margin = new Padding(3, 2, 3, 2);
+            panelHardware.Name = "panelHardware";
+            panelHardware.Size = new Size(608, 157);
+            panelHardware.TabIndex = 20;
+            panelHardware.Paint += panelHardware_Paint;
+            // 
+            // checkBox13
+            // 
+            checkBox13.AutoSize = true;
+            checkBox13.ForeColor = Color.White;
+            checkBox13.Location = new Point(450, 117);
+            checkBox13.Name = "checkBox13";
+            checkBox13.Size = new Size(50, 19);
+            checkBox13.TabIndex = 58;
+            checkBox13.Text = "Basil";
+            checkBox13.UseVisualStyleBackColor = true;
+            // 
+            // checkBox14
+            // 
+            checkBox14.AutoSize = true;
+            checkBox14.ForeColor = Color.White;
+            checkBox14.Location = new Point(450, 92);
+            checkBox14.Name = "checkBox14";
+            checkBox14.Size = new Size(63, 19);
+            checkBox14.TabIndex = 57;
+            checkBox14.Text = "Parsley";
+            checkBox14.UseVisualStyleBackColor = true;
+            // 
+            // checkBox15
+            // 
+            checkBox15.AutoSize = true;
+            checkBox15.ForeColor = Color.White;
+            checkBox15.Location = new Point(450, 67);
+            checkBox15.Name = "checkBox15";
+            checkBox15.Size = new Size(73, 19);
+            checkBox15.TabIndex = 56;
+            checkBox15.Text = "Avocado";
+            checkBox15.UseVisualStyleBackColor = true;
+            // 
+            // checkBox10
+            // 
+            checkBox10.AutoSize = true;
+            checkBox10.ForeColor = Color.White;
+            checkBox10.Location = new Point(380, 117);
+            checkBox10.Name = "checkBox10";
+            checkBox10.Size = new Size(52, 19);
+            checkBox10.TabIndex = 55;
+            checkBox10.Text = "Ham";
+            checkBox10.UseVisualStyleBackColor = true;
+            // 
+            // checkBox11
+            // 
+            checkBox11.AutoSize = true;
+            checkBox11.ForeColor = Color.White;
+            checkBox11.Location = new Point(380, 92);
+            checkBox11.Name = "checkBox11";
+            checkBox11.Size = new Size(59, 19);
+            checkBox11.TabIndex = 54;
+            checkBox11.Text = "Bacon";
+            checkBox11.UseVisualStyleBackColor = true;
+            // 
+            // checkBox12
+            // 
+            checkBox12.AutoSize = true;
+            checkBox12.ForeColor = Color.White;
+            checkBox12.Location = new Point(380, 67);
+            checkBox12.Name = "checkBox12";
+            checkBox12.Size = new Size(51, 19);
+            checkBox12.TabIndex = 53;
+            checkBox12.Text = "Eggs";
+            checkBox12.UseVisualStyleBackColor = true;
+            // 
+            // checkBox7
+            // 
+            checkBox7.AutoSize = true;
+            checkBox7.ForeColor = Color.White;
+            checkBox7.Location = new Point(293, 118);
+            checkBox7.Name = "checkBox7";
+            checkBox7.Size = new Size(89, 19);
+            checkBox7.TabIndex = 52;
+            checkBox7.Text = "Black Olives";
+            checkBox7.UseVisualStyleBackColor = true;
+            // 
+            // checkBox8
+            // 
+            checkBox8.AutoSize = true;
+            checkBox8.ForeColor = Color.White;
+            checkBox8.Location = new Point(293, 92);
+            checkBox8.Name = "checkBox8";
+            checkBox8.Size = new Size(56, 19);
+            checkBox8.TabIndex = 51;
+            checkBox8.Text = "Garlic";
+            checkBox8.UseVisualStyleBackColor = true;
+            // 
+            // checkBox9
+            // 
+            checkBox9.AutoSize = true;
+            checkBox9.ForeColor = Color.White;
+            checkBox9.Location = new Point(293, 68);
+            checkBox9.Name = "checkBox9";
+            checkBox9.Size = new Size(80, 19);
+            checkBox9.TabIndex = 50;
+            checkBox9.Text = "Prosciutto";
+            checkBox9.UseVisualStyleBackColor = true;
+            // 
+            // checkBox4
+            // 
+            checkBox4.AutoSize = true;
+            checkBox4.ForeColor = Color.White;
+            checkBox4.Location = new Point(205, 118);
+            checkBox4.Name = "checkBox4";
+            checkBox4.Size = new Size(64, 19);
+            checkBox4.TabIndex = 49;
+            checkBox4.Text = "Onions";
+            checkBox4.UseVisualStyleBackColor = true;
+            // 
+            // checkBox5
+            // 
+            checkBox5.AutoSize = true;
+            checkBox5.ForeColor = Color.White;
+            checkBox5.Location = new Point(205, 93);
+            checkBox5.Name = "checkBox5";
+            checkBox5.Size = new Size(90, 19);
+            checkBox5.TabIndex = 48;
+            checkBox5.Text = "Mushrooms";
+            checkBox5.UseVisualStyleBackColor = true;
+            // 
+            // checkBox6
+            // 
+            checkBox6.AutoSize = true;
+            checkBox6.ForeColor = Color.White;
+            checkBox6.Location = new Point(205, 68);
+            checkBox6.Name = "checkBox6";
+            checkBox6.Size = new Size(80, 19);
+            checkBox6.TabIndex = 47;
+            checkBox6.Text = "Pepperoni";
+            checkBox6.UseVisualStyleBackColor = true;
+            // 
+            // checkBox3
+            // 
+            checkBox3.AutoSize = true;
+            checkBox3.ForeColor = Color.White;
+            checkBox3.Location = new Point(108, 117);
+            checkBox3.Name = "checkBox3";
+            checkBox3.Size = new Size(82, 19);
+            checkBox3.TabIndex = 46;
+            checkBox3.Text = "Mozzarella";
+            checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            checkBox2.AutoSize = true;
+            checkBox2.ForeColor = Color.White;
+            checkBox2.Location = new Point(108, 92);
+            checkBox2.Name = "checkBox2";
+            checkBox2.Size = new Size(100, 19);
+            checkBox2.TabIndex = 45;
+            checkBox2.Text = "Tomato Sauce";
+            checkBox2.UseVisualStyleBackColor = true;
             // 
             // AddProductForm
             // 
@@ -509,27 +465,27 @@
 		private Label label4;
 		private RadioButton rbGame;
 		private RadioButton rbHardware;
-		private Panel panelHardware;
-		private Label Manufaturer;
-		private Label label9;
-		private Label label10;
 		private Button btnAdd;
-        private RadioButton rtbDough;
-        private RadioButton radioButton3;
-        private RadioButton radioButton2;
-        private RadioButton radioButton1;
-        private RadioButton radioButton11;
-        private RadioButton radioButton12;
-        private RadioButton radioButton13;
-        private RadioButton radioButton14;
-        private RadioButton radioButton6;
-        private RadioButton radioButton7;
-        private RadioButton radioButton8;
-        private RadioButton radioButton9;
-        private RadioButton radioButton4;
-        private RadioButton radioButton5;
-        private RadioButton radioButton10;
+        private CheckBox checkBox1;
+        private Label Manufaturer;
+        private Label label9;
+        private Label label10;
         private ComboBox cmbCourse;
         private ComboBox cmbCuisine;
+        private Panel panelHardware;
+        private CheckBox checkBox4;
+        private CheckBox checkBox5;
+        private CheckBox checkBox6;
+        private CheckBox checkBox3;
+        private CheckBox checkBox2;
+        private CheckBox checkBox13;
+        private CheckBox checkBox14;
+        private CheckBox checkBox15;
+        private CheckBox checkBox10;
+        private CheckBox checkBox11;
+        private CheckBox checkBox12;
+        private CheckBox checkBox7;
+        private CheckBox checkBox8;
+        private CheckBox checkBox9;
     }
 }

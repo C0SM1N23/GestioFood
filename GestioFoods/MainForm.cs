@@ -1,6 +1,6 @@
-﻿using FontAwesome.Sharp;
-using Gaming_Bros_Desktop_App;
-using Logic_Layer;
+﻿using ClassLibrary1.class1;
+using FontAwesome.Sharp;
+
 using Color = System.Drawing.Color;
 
 namespace Desktop_App_.NET_8._0
@@ -14,11 +14,13 @@ namespace Desktop_App_.NET_8._0
         private ModifyProductForm editForm;
         private AddProductForm addForm;
         private ProductManager productmanager;
+        private IngredientManager ingredientmanager;
         public MainForm()
-        {
+        {   
+            ingredientmanager = new IngredientManager();
             productmanager = new ProductManager();
-            editForm = new ModifyProductForm(productmanager);
-            addForm = new AddProductForm(editForm, productmanager);
+            editForm = new ModifyProductForm(productmanager, ingredientmanager);
+            addForm = new AddProductForm(editForm, productmanager, ingredientmanager);
             InitializeComponent();
             leftBorderBtn = new Panel();
             leftBorderBtn.Size = new Size(7, 60);
@@ -100,10 +102,10 @@ namespace Desktop_App_.NET_8._0
             OpenChildForm(editForm);
         }
 
-        private void iconButton3_Click_1(object sender, EventArgs e)
+        private void iconbutton3_click_1(object sender, EventArgs e)
         {
-            ActivateButton(sender, Color.FromArgb(30, 168, 150));
-            OpenChildForm(new SeeIngredientsForm());
+        //    activatebutton(sender, color.fromargb(30, 168, 150));
+        //    openchildform(new seeingredientsform());
         }
 
         private void iconButton4_Click(object sender, EventArgs e)
